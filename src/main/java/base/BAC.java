@@ -61,7 +61,7 @@ public class BAC {
         boolean l = isNumber(lbs);
         boolean h = isNumber(hrs);
         if (!s || !a || !l || !h) {
-            System.out.println("Invalid input");
+            System.out.println("Please enter numeric values only");
             return;
         }
         double bac = bacCalc(sex, alc, lbs, hrs);
